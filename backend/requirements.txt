@@ -1,0 +1,49 @@
+# Backend Dependencies for ClarityCareers
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+mysqlclient==2.2.0
+alembic==1.13.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# ML/NLP (Already installed)
+sentence-transformers==5.2.0
+torch==2.10.0
+transformers==4.57.6
+scikit-learn==1.8.0
+
+# Explainable AI
+shap==0.45.0
+
+# NLP Processing
+spacy==3.7.2
+pypdf==6.2.0
+pdfplumber==0.11.0
+pdf2image==1.17.0
+pytesseract==0.3.10
+Pillow==10.2.0
+pymysql
+
+# Data Processing
+pandas==2.3.3
+numpy==2.3.4
+
+# CORS
+fastapi-cors==0.0.6
+
+# Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Testing
+pytest==7.4.4
+httpx==0.28.1
