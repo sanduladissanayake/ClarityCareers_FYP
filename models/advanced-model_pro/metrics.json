@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.9731818181818181,
+  "precision": 0.9562043795620438,
+  "recall": 0.995777027027027,
+  "f1_score": 0.9755895738518825,
+  "auc_roc": 0.9861298614066822,
+  "threshold": 0.5599999999999998,
+  "skill_weight": 0.2,
+  "epochs": 5,
+  "sample_size": 22000,
+  "confusion_matrix": [
+    [
+      962,
+      54
+    ],
+    [
+      5,
+      1179
+    ]
+  ],
+  "novel_contributions": [
+    "Skill-weighted hybrid similarity",
+    "Data augmentation with paraphrasing",
+    "Hard negative mining",
+    "Extended training strategy"
+  ],
+  "timestamp": "2026-03-10T14:17:35.867627"
+}
