@@ -1,0 +1,63 @@
+{
+  "model_type": "Pro Model",
+  "evaluation_date": "2026-03-26T17:37:51.339652",
+  "test_set_info": {
+    "total_samples": 2500,
+    "non_matches": 1288,
+    "matches": 1212,
+    "test_size_percentage": 25.0
+  },
+  "threshold_used": 0.3,
+  "primary_metrics": {
+    "accuracy": 0.4848,
+    "precision": 0.4848,
+    "recall": 1.0,
+    "f1_score": 0.6530172413793104
+  },
+  "secondary_metrics": {
+    "balanced_accuracy": 0.5,
+    "specificity": 0.0,
+    "sensitivity": 1.0,
+    "cohen_kappa": 0.0,
+    "roc_auc": 0.4861311829940758
+  },
+  "confusion_matrix": {
+    "true_negatives": 0,
+    "false_positives": 1288,
+    "false_negatives": 0,
+    "true_positives": 1212
+  },
+  "error_rates": {
+    "false_positive_rate": 1.0,
+    "false_negative_rate": 0.0
+  },
+  "per_class_metrics": {
+    "non_match": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 1288
+    },
+    "match": {
+      "precision": 0.4848,
+      "recall": 1.0,
+      "f1_score": 0.6530172413793104,
+      "support": 1212
+    }
+  },
+  "similarity_statistics": {
+    "mean": 0.7657082676887512,
+    "std_dev": 0.0665396898984909,
+    "min": 0.4649627208709717,
+    "max": 0.9292057752609253,
+    "median": 0.7751349210739136,
+    "percentile_25": 0.7282986640930176,
+    "percentile_75": 0.8112040907144547
+  },
+  "timing": {
+    "model_load_time_seconds": 0.8741762638092041,
+    "embedding_time_seconds": 22.21571707725525,
+    "similarity_calculation_time_seconds": 0.44362378120422363,
+    "total_evaluation_time_seconds": 23.669281244277954
+  }
+}

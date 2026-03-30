@@ -1,0 +1,42 @@
+# ClarityCareers - Required Python Packages
+
+# Core ML/NLP Libraries
+sentence-transformers==2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Explainable AI
+shap>=0.42.0
+
+# NLP Tools (for skill extraction - FR07)
+spacy>=3.5.0
+nltk>=3.8.0
+
+# Web Framework 
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# PDF/Document Processing
+pypdf>=3.15.0
+
+# Visualization (for reports)
+plotly>=5.14.0
+matplotlib>=3.7.0
+
+# For fine-tuning and training
+datasets>=2.12.0
+accelerate>=0.20.0
+
+# Optional: For API deployment (future)
+# fastapi>=0.100.0
+# uvicorn>=0.22.0

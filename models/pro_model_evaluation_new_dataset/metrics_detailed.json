@@ -1,0 +1,63 @@
+{
+  "model_type": "Pro Model",
+  "dataset": "job_applicant_dataset_new.csv (first 5000 records)",
+  "evaluation_date": "2026-03-26T17:54:11.686263",
+  "test_set_info": {
+    "total_samples": 2000,
+    "non_matches": 1017,
+    "matches": 983,
+    "test_size_percentage": 40.0
+  },
+  "threshold_used": 0.5400000000000003,
+  "primary_metrics": {
+    "accuracy": 0.9835,
+    "precision": 0.9721669980119284,
+    "recall": 0.9949135300101729,
+    "f1_score": 0.9834087481146304
+  },
+  "secondary_metrics": {
+    "balanced_accuracy": 0.9836907866373381,
+    "specificity": 0.9724680432645034,
+    "sensitivity": 0.9949135300101729,
+    "cohen_kappa": 0.967003365656703,
+    "roc_auc": 0.9946054409724411
+  },
+  "confusion_matrix": {
+    "true_negatives": 989,
+    "false_positives": 28,
+    "false_negatives": 5,
+    "true_positives": 978
+  },
+  "error_rates": {
+    "false_positive_rate": 0.02753195673549656,
+    "false_negative_rate": 0.00508646998982706
+  },
+  "per_class_metrics": {
+    "non_match": {
+      "precision": 0.9949698189134809,
+      "recall": 0.9724680432645034,
+      "f1_score": 0.9835902536051716,
+      "support": 1017
+    },
+    "match": {
+      "precision": 0.9721669980119284,
+      "recall": 0.9949135300101729,
+      "f1_score": 0.9834087481146304,
+      "support": 983
+    }
+  },
+  "similarity_statistics": {
+    "mean": 0.4237663447856903,
+    "std_dev": 0.3425705134868622,
+    "min": -0.3605424165725708,
+    "max": 0.982883095741272,
+    "median": 0.5474458932876587,
+    "percentile_25": 0.10486104898154736,
+    "percentile_75": 0.7181370556354523
+  },
+  "timing": {
+    "model_load_time_seconds": 0.873103141784668,
+    "embedding_time_seconds": 16.106016635894775,
+    "similarity_calculation_time_seconds": 0.35063862800598145
+  }
+}
